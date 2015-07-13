@@ -15,7 +15,7 @@
 
 # `$ ssh-remote` [![Donate now][donate-now]][paypal-donations]
 
-Changes the remote url to ssh type.
+Automagically switch on the SSH remote url in a Git repository.
 
 Sometimes it happens to have repositories closed with http(s) protocol.
 I have 2FA enabled on GitHub and my password is complicated anyway. Since I
@@ -28,6 +28,8 @@ $ ssh-remote
 ```
 
 ...and let the magic happen.
+
+![ssh-remote](http://imgur.com/Unb4VUA)
 
 ## Installation
 

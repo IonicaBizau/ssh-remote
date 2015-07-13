@@ -1,7 +1,7 @@
 {
   "name": "ssh-remote",
   "version": "0.0.0",
-  "description": "Changes the remote url to ssh type.",
+  "description": "Automagically switch on the SSH remote url in a Git repository.",
   "main": "lib/index.js",
   "bin": {
     "ssh-remote": "./bin/ssh-remote"
