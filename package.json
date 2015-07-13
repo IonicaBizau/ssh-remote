@@ -1,0 +1,41 @@
+{
+  "name": "ssh-remote",
+  "version": "1.0.0",
+  "description": "Changes the remote url to ssh type.",
+  "main": "lib/index.js",
+  "bin": {
+      "ssh-remote": "./bin/ssh-remote"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "abs": "^1.0.0",
+    "bug-killer": "^4.0.0",
+    "clp": "^3.0.0",
+    "git-url-parse": "^3.0.0",
+    "gry": "^4.0.0",
+    "one-by-one": "^2.0.0",
+    "parent-search": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/ssh-remote.git"
+  },
+  "keywords": [
+    "ssh",
+    "remote",
+    "git",
+    "update"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/ssh-remote/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/ssh-remote"
+}

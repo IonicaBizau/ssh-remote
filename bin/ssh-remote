@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+// Dependencies
+var SshRemote = require("../lib")
+  , Logger = require("bug-killer")
+  , CLP = require("clp")
+  , Package = require("../package")
+  ;
+
+// Parse the command line arguments
+var pathOpt = new CLP.Option(["p", "path"], "Set another path.", "path", process.cwd())
+  , parser = new CLP({
+        name: "SSH Remote"
+      , version: Package.version
+      , exe: Package.name
+      , examples: [
+            "ssh-remote # Changes the remote url to ssh in the current git repo"
+          , "ssh-remote -p path/to/another/repository"
+        ]
+      , docs_url: Package.homepage
+      , process: true
+    }, [
+        pathOpt
+    ])
+  ;
+
+SshRemote(pathOpt.value, function (err, data) {
+    if (err) { return Logger.log(err, "error"); }
+    Logger.log(typeof data === "object" ? "Done." : data);
+});
