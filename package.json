@@ -38,5 +38,8 @@
     "one-by-one": "^2.0.0",
     "parent-search": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "blah": {
+    "ex_img": "http://imgur.com/Unb4VUA"
+  }
 }
