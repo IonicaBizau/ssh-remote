@@ -29,7 +29,7 @@ $ ssh-remote
 
 ...and let the magic happen.
 
-![ssh-remote](http://i.imgur.com/Unb4VUA)
+![ssh-remote](http://i.imgur.com/Unb4VUA.png)
 
 ## Installation
 
