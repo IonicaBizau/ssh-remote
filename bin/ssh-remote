@@ -24,6 +24,7 @@ var pathOpt = new CLP.Option(["p", "path"], "Set another path.", "path", process
     ])
   ;
 
+// Change the remote url
 SshRemote(pathOpt.value, function (err, data) {
     if (err) { return Logger.log(err, "error"); }
     Logger.log(typeof data === "object" ? "Done." : data);
