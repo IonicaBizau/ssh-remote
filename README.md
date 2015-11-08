@@ -1,4 +1,5 @@
 # `$ ssh-remote` [![Support this project][donate-now]][paypal-donations]
+
 Automagically switch on the SSH remote url in a Git repository.
 
 Sometimes it happens to have repositories closed with http(s) protocol. I have 2FA enabled on GitHub and my password is complicated anyway. Since I have SSH configured on my machines, I want to use it, I never knew the SSH url format.
