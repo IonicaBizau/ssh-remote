@@ -22,7 +22,7 @@
     "git",
     "update"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ssh-remote/issues"
@@ -40,6 +40,21 @@
   },
   "devDependencies": {},
   "blah": {
-    "ex_img": "http://i.imgur.com/Unb4VUA.png"
+    "ex_img": "http://i.imgur.com/Unb4VUA.png",
+    "description": [
+      {
+        "p": [
+          "Sometimes it happens to have repositories closed with http(s) protocol. I have 2FA enabled on GitHub and my password is complicated anyway. Since I have SSH configured on my machines, I want to use it, I never knew the SSH url format.",
+          "So, I just do now:",
+          {
+            "code": {
+              "content": "$ ssh-remote",
+              "language": "sh"
+            }
+          },
+          "...and let the magic happen."
+        ]
+      }
+    ]
   }
 }
