@@ -1,6 +1,6 @@
-# `$ ssh-remote` [![Support this project][donate-now]][paypal-donations]
+# `$ ssh-remote` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ssh-remote.svg)](https://www.npmjs.com/package/ssh-remote) [![Downloads](https://img.shields.io/npm/dt/ssh-remote.svg)](https://www.npmjs.com/package/ssh-remote) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Automagically switch on the SSH remote url in a Git repository.
+> Automagically switch on the SSH remote url in a Git repository.
 
 Sometimes it happens to have repositories closed with http(s) protocol. I have 2FA enabled on GitHub and my password is complicated anyway. Since I have SSH configured on my machines, I want to use it, I never knew the SSH url format.
 
