@@ -1,6 +1,6 @@
 {
   "name": "ssh-remote",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Automagically switch on the SSH remote url in a Git repository.",
   "main": "lib/index.js",
   "bin": {
@@ -22,7 +22,7 @@
     "git",
     "update"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/ssh-remote/issues"
@@ -61,12 +61,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
