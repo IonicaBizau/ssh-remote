@@ -11,9 +11,7 @@ Sometimes it happens to have repositories closed with http(s) protocol. I have 2
 So, I just do now:
 
 ```sh
-
 $ ssh-remote
-
 ```
 
 ...and let the magic happen.
@@ -70,6 +68,15 @@ SshRemote();
 // Use the ssh remote url in another directory
 SshRemote("path/to/some/dir");
 ```
+
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 ## :memo: Documentation
 
