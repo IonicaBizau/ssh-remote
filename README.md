@@ -13,8 +13,12 @@ Sometimes it happens to have repositories closed with http(s) protocol. I have 2
 So, I just do now:
 
 ```sh
+
 $ ssh-remote
+
 ```
+
+
 
 ...and let the magic happen.
 
@@ -27,7 +31,11 @@ You can install the package globally and use it as command line tool:
 
 
 ```sh
-$ npm i -g ssh-remote
+# Using npm
+npm install --global ssh-remote
+
+# Using yarn
+yarn global add ssh-remote
 ```
 
 
@@ -53,10 +61,14 @@ Documentation can be found at https://github.com/IonicaBizau/ssh-remote
 ## :clipboard: Example
 
 
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
 
 ```sh
-$ npm i --save ssh-remote
+# Using npm
+npm install --save ssh-remote
+
+# Using yarn
+yarn add ssh-remote
 ```
 
 
@@ -79,7 +91,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
